@@ -16,7 +16,7 @@ One other advantage to this approach is that features such as partial templates,
 ```rust
 use rust_tags::core::*;
 use rust_tags::tags*;
-use rust_attributes::*;
+use rust_tags::attributes::*;
 
 let frag = html(&[
     head(&[tags::title(&["My Blog".into()])]),
