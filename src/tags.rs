@@ -3,6 +3,7 @@ use core::*;
 // Unary Tags
 pub fn br() -> Fragment { tag("br", true, vec![]) }
 pub fn hr(children: &[Fragment]) -> Fragment { tag("hr", true, children.to_vec()) }
+pub fn link(children: &[Fragment]) -> Fragment { tag("link", true, children.to_vec()) }
 
 // Binary tags
 pub fn a(children: &[Fragment]) -> Fragment { tag("a", false, children.to_vec()) }
@@ -68,7 +69,6 @@ pub fn kbd(children: &[Fragment]) -> Fragment { tag("kbd", false, children.to_ve
 pub fn label(children: &[Fragment]) -> Fragment { tag("label", false, children.to_vec()) }
 pub fn legend(children: &[Fragment]) -> Fragment { tag("legend", false, children.to_vec()) }
 pub fn li(children: &[Fragment]) -> Fragment { tag("li", false, children.to_vec()) }
-pub fn link(children: &[Fragment]) -> Fragment { tag("link", false, children.to_vec()) }
 pub fn main(children: &[Fragment]) -> Fragment { tag("main", false, children.to_vec()) }
 pub fn map(children: &[Fragment]) -> Fragment { tag("map", false, children.to_vec()) }
 pub fn mark(children: &[Fragment]) -> Fragment { tag("mark", false, children.to_vec()) }
