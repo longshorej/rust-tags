@@ -1,9 +1,9 @@
 [package]
-name = "rustags"
+name = "rust-tags"
 version = "0.1.0"
 authors = ["Jason Longshore <tempremoved@dafdfa.com>"]
 description = "An HTML templating library for Rust"
-repository = "https://github.com/longshorej/rustags"
+repository = "https://github.com/longshorej/rust-tags"
 readme = "README.md"
 keywords = ["html", "xml", "template", "templating"]
 license = "Apache License 2.0"
