@@ -2,5 +2,10 @@
 name = "rustags"
 version = "0.1.0"
 authors = ["Jason Longshore <tempremoved@dafdfa.com>"]
+description = "An HTML templating library for Rust"
+repository = "https://github.com/longshorej/rustags"
+readme = "README.md"
+keywords = ["html", "xml", "template", "templating"]
+license = "Apache License 2.0"
 
 [dependencies]
