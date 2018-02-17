@@ -1,4 +1,4 @@
-# rustags
+# rust-tags
 
 [![Crates.io](https://img.shields.io/crates/v/rust-tags.svg?style=flat-square)](https://crates.io/crates/rust-tags)
 [![Crates.io](https://img.shields.io/crates/d/rust-tags.svg?style=flat-square)](https://crates.io/crates/rust-tags)
