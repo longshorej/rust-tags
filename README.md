@@ -1,7 +1,7 @@
 # rustags
 
-[![Crates.io](https://img.shields.io/crates/v/rustags.svg?style=flat-square)]()
-[![Crates.io](https://img.shields.io/crates/d/rustags.svg?style=flat-square)]()
+[![Crates.io](https://img.shields.io/crates/v/rustags.svg?style=flat-square)](https://crates.io/crates/rustags)
+[![Crates.io](https://img.shields.io/crates/d/rustags.svg?style=flat-square)](https://crates.io/crates/rustags)
 
 **This project is a work-in-progress.**
 
