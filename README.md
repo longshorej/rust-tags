@@ -1,5 +1,8 @@
 # rustags
 
+[![Crates.io](https://img.shields.io/crates/v/rustags.svg?style=flat-square)]()
+[![Crates.io](https://img.shields.io/crates/d/rustags.svg?style=flat-square)]()
+
 **This project is a work-in-progress.**
 
 This is a HTML templating library for the [Rust Programming Language](https://www.rust-lang.org/en-US/). It's strongly inspired strongly by [Scalatags](https://github.com/lihaoyi/scalatags/).
