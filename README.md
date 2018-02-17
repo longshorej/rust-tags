@@ -5,7 +5,7 @@
 
 **This project is a work-in-progress.**
 
-This is a HTML templating library for the [Rust Programming Language](https://www.rust-lang.org/en-US/). It's strongly inspired strongly by [Scalatags](https://github.com/lihaoyi/scalatags/).
+This is a HTML templating library for the [Rust Programming Language](https://www.rust-lang.org/en-US/). It's strongly inspired by [Scalatags](https://github.com/lihaoyi/scalatags/).
 
 It differs from other templating libraries in that your documents are simply defined as plain function calls. This, among other things, allows you to safely construct documents that are free from XSS vulerabilities.
 
