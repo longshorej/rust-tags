@@ -4,6 +4,7 @@ use core::*;
 pub fn br() -> Fragment { tag("br", true, vec![]) }
 pub fn hr(children: &[Fragment]) -> Fragment { tag("hr", true, children.to_vec()) }
 pub fn link(children: &[Fragment]) -> Fragment { tag("link", true, children.to_vec()) }
+pub fn meta(children: &[Fragment]) -> Fragment { tag("meta", true, children.to_vec()) }
 
 // Binary tags
 pub fn a(children: &[Fragment]) -> Fragment { tag("a", false, children.to_vec()) }
@@ -74,7 +75,6 @@ pub fn map(children: &[Fragment]) -> Fragment { tag("map", false, children.to_ve
 pub fn mark(children: &[Fragment]) -> Fragment { tag("mark", false, children.to_vec()) }
 pub fn menu(children: &[Fragment]) -> Fragment { tag("menu", false, children.to_vec()) }
 pub fn menuitem(children: &[Fragment]) -> Fragment { tag("menuitem", false, children.to_vec()) }
-pub fn meta(children: &[Fragment]) -> Fragment { tag("meta", false, children.to_vec()) }
 pub fn meter(children: &[Fragment]) -> Fragment { tag("meter", false, children.to_vec()) }
 pub fn nav(children: &[Fragment]) -> Fragment { tag("nav", false, children.to_vec()) }
 pub fn noframes(children: &[Fragment]) -> Fragment { tag("noframes", false, children.to_vec()) }
