@@ -1,7 +1,7 @@
 # rustags
 
-[![Crates.io](https://img.shields.io/crates/v/rustags.svg?style=flat-square)](https://crates.io/crates/rustags)
-[![Crates.io](https://img.shields.io/crates/d/rustags.svg?style=flat-square)](https://crates.io/crates/rustags)
+[![Crates.io](https://img.shields.io/crates/v/rust-tags.svg?style=flat-square)](https://crates.io/crates/rust-tags)
+[![Crates.io](https://img.shields.io/crates/d/rust-tags.svg?style=flat-square)](https://crates.io/crates/rust-tags)
 
 **This project is a work-in-progress.**
 
@@ -15,7 +15,7 @@ One other advantage to this approach is that features such as partial templates,
 
 ```rust
 use rust_tags::core::*;
-use rust_tags::*;
+use rust_tags::tags*;
 use rust_attributes::*;
 
 let frag = html(&[
