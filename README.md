@@ -2,7 +2,7 @@
 
 [![Crates.io](https://img.shields.io/crates/v/rust-tags.svg?style=flat-square)](https://crates.io/crates/rust-tags)
 [![Crates.io](https://img.shields.io/crates/d/rust-tags.svg?style=flat-square)](https://crates.io/crates/rust-tags)
-[![Travis-ci.org](https://travis-ci.org/longshorej/rust-tags.svg?branch=master)](https://travis-ci.org/longshorej/rust-tags)
+[![Travis](https://img.shields.io/travis/longshorej/rust-tags.svg?style=flat-square)](https://travis-ci.org/longshorej/rust-tags)
 
 **This project is a work-in-progress.**
 
