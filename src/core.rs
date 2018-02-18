@@ -39,8 +39,9 @@ fn escape_attribute_name(value: &str) -> String {
 }
 
 fn escape_attribute_value(value: &str) -> String {
-    // @TODO
-    value.to_string()
+    // @TODO is this right? I think it is, would like to be 100% sure
+
+    escape_text(value)
 }
 
 
