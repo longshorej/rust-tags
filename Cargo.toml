@@ -7,6 +7,6 @@ repository = "https://github.com/longshorej/rust-tags"
 homepage = "https://github.com/longshorej/rust-tags"
 readme = "README.md"
 keywords = ["html", "xml", "template", "templating"]
-license = "Apache License 2.0"
+license = "Apache-2.0"
 
 [dependencies]
