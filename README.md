@@ -14,29 +14,34 @@ One other advantage to this approach is that features such as partial templates,
 ## Example
 
 ```rust
-use rust_tags::core::*;
-use rust_tags::tags*;
+extern crate rust_tags;
+
+use rust_tags::tags::*;
+use rust_tags::tags::title;
 use rust_tags::attributes::*;
 
-let frag = html(&[
-    head(&[tags::title(&["My Blog".into()])]),
-    body(&[
-        div(&[
-            "Jason Longshore".into(),
+fn main() {
 
-            hr(&[]),
+    let frag = html(&[
+        head(&[title(&["My Blog".into()])]),
+        body(&[
+            div(&[
+                "Jason Longshore".into(),
 
-            // note that the hello world is escaped
+                hr(&[]),
 
-            a(&[href("#"), "My Blog <hello world />".into()]),
+                // note that the hello world is escaped
 
-            br(),
-            br()
+                a(&[href("#"), "My Blog <hello world />".into()]),
+
+                br(),
+                br()
+            ])
         ])
-    ])
-]);
+    ]);
 
-println!(frag.data);
+    println!("{}", frag.data);
+}
 ```
 
 ## Projects That Use `rust-tags`
