@@ -94,3 +94,33 @@ pub fn tag(name: &str, unary: bool, children: Vec<Fragment>) -> Fragment {
 
     Fragment { data: data, element: true }
 }
+
+#[cfg(test)]
+mod tests {
+    use core::*;
+
+    #[test]
+    fn tag_works_binary_no_children() {
+        assert_eq!(tag("a", false, vec![]).data, "<a></a>")
+    }
+
+    #[test]
+    fn tag_works_binary_with_children() {
+        assert_eq!(tag("a", false, vec![
+          attribute("href", "#"),
+          tag("span", false, vec!["hello".into()])
+        ]).data, "<a href=\"#\"><span>hello</span></a>")
+    }
+
+    #[test]
+    fn tag_works_unary_no_children() {
+        assert_eq!(tag("br", true, vec![]).data, "<br/>")
+    }
+
+    #[test]
+    fn tag_works_unary_with_children() {
+        assert_eq!(tag("br", true, vec![
+            attribute("style", "margin: 50px;")
+        ]).data, "<br style=\"margin: 50px;\"/>")
+    }
+}
