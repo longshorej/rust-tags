@@ -21,7 +21,6 @@ use rust_tags::tags::title;
 use rust_tags::attributes::*;
 
 fn main() {
-
     let frag = html(&[
         head(&[title(&["My Blog".into()])]),
         body(&[
@@ -48,11 +47,22 @@ fn main() {
 
 * [jason-longshore](https://github.com/longshorej/jason-longshore)
 
+## Release Notes
+
+##### 0.3.1 2018-02-18
+
+Fix a bug in attribute value escaping.
+
+##### 0.3.0 2018-02-18
+
+Initial usable release.
+
 ## Releasing
 
 1) Upgrade version in `Cargo.toml`
+5) Update the Release Notes in `README.md`
 2) Commit changes
-3) Create and push a tag: ```git tag v<version>; git push v<version>```
+3) Create and push a tag: ```git tag v<version>; git push origin v<version>```
 4) Release on crates.io: ```cargo publish```
 
 ## Author
