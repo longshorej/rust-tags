@@ -4,7 +4,7 @@
 [![Crates.io](https://img.shields.io/crates/d/rust-tags.svg?style=flat-square)](https://crates.io/crates/rust-tags)
 [![Travis](https://img.shields.io/travis/longshorej/rust-tags.svg?style=flat-square)](https://travis-ci.org/longshorej/rust-tags)
 
-**This project is a work-in-progress.**
+**This project is abandoned. Use [typed-html](https://crates.io/crates/typed-html) instead.**
 
 This is an HTML templating library for the [Rust Programming Language](https://www.rust-lang.org/en-US/). It's strongly inspired by [Scalatags](https://github.com/lihaoyi/scalatags/).
 
